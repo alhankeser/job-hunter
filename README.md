@@ -1,0 +1,2 @@
+- Clone
+- cd job-hunter && python3 hunt.py
