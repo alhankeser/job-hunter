@@ -1,5 +1,5 @@
-# from job_pages import job_pages
-# from keywords import keywords
+from job_pages import job_pages
+from keywords import keywords
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 import re
@@ -153,4 +153,4 @@ def get_previous():
 i = 0
 current_page = False
 driver = get_driver(headless=False)
-# init()
+init()
