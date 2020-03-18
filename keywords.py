@@ -4,5 +4,8 @@ keywords = [
     ['data', 'ana'],
     ['decision', 'sci'],
     ['data', 'eng'],
-    ['analytic']
+    ['sci'],
+    ['analy'],
+    ['business', 'analy'],
+    ['business', 'intel']
 ]

@@ -3,6 +3,7 @@ from keywords import keywords
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 import re
+import time
 
 no_opening_texts = [
     'We do not have any current job openings.',
@@ -126,6 +127,7 @@ def init(job_pages=job_pages):
         print('HUNTING @ ', current_page['url'], '\n')
         # try:
         driver.get(current_page['url'])
+        time.sleep(3)
         if job_page['custom_method']:
             links = eval(job_page['custom_method'])
         else:
